@@ -1,0 +1,43 @@
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.contact-info__host{
+    display: flex;
+    gap: 20px;
+}
+
+.contact-info__host--image{
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+}
+
+.contact-info__host--contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.contact-info__host--details{
+    display: flex;
+    gap: 12px;
+    font-size: 16px;
+}
+
+.contact-info__host--detail{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.contact-info__host--detail:not(:last-child)::after{
+    content: '';
+    display: block;
+    height: 4px;
+    width: 4px;
+    border-radius: 4px;
+    background-color: #000;
+}

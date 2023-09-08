@@ -1,0 +1,18 @@
+.description{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.description__text{
+    font-size: 16px;
+    line-height: 1.5em;
+    display: block;
+}
+
+.border{
+    padding-bottom: 8px;
+    border-bottom: 1px solid #dee2e6;  
+}
+
+ 

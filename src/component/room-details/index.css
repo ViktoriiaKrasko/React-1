@@ -1,0 +1,16 @@
+.room__details{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.list-item{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 8px;
+}
+
